@@ -6,5 +6,5 @@ before_install:
   - docker build -t giuliaculoma/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true giuloiaculoma/docker-react npm run test 
+  - docker run -e CI=true giuliaculoma/docker-react npm run test 
 
